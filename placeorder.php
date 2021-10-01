@@ -19,7 +19,7 @@ if(!isset($_SESSION))
 { 
     session_start(); 
 } 
-// Get the amount of items in the shopping cart, this will be displayed in the header.
+// Get the amount of        items in the shopping cart, this will be displayed in the header.
 $num_items_in_cart = isset($_SESSION['cart']) ? count($_SESSION['cart']) : 0;
 
 // Check if user is logged in.
