@@ -2,7 +2,7 @@
 // Include func  tions and connect to the database using PDO MySQL
 function pdo_connect_mysql() {
     // Our Database login Data
-    $DATABASE_HOST = 'localhost';
+    $DATABASE_HOST = 'db';
     $DATABASE_USER = 'newuser';
     $DATABASE_PASS = 'password';
     $DATABASE_NAME = 'users';

@@ -1,6 +1,6 @@
 <?php
 // Our Database login Data
-define('DB_SERVER', 'localhost');
+define('DB_SERVER', 'db');
 define('DB_USERNAME', 'newuser');
 define('DB_PASSWORD', 'password');
 define('DB_NAME', 'users');
