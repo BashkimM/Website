@@ -5,7 +5,7 @@ define('DB_USERNAME', 'newuser');
 define('DB_PASSWORD', 'password');
 define('DB_NAME', 'users');
  
-/* Attempt to connect to MySQL database */
+/* Attempt to c    onnect to MySQL database */
 try{
     $pdo = new PDO("mysql:host=" . DB_SERVER . ";dbname=" . DB_NAME, DB_USERNAME, DB_PASSWORD);
     // Set the PDO error mode to exception
