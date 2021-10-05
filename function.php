@@ -1,5 +1,5 @@
 <?php
-// Include functions and connect to the database using PDO MySQL
+// Include functions and connect to the d  atabase using PDO MySQL
 function pdo_connect_mysql() {
     // Our Database login Data
     $DATABASE_HOST = 'db';
