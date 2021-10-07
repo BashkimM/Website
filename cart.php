@@ -101,7 +101,7 @@ if (isset($_POST['update']) && isset($_SESSION['cart'])) {
 // Send the user to the place order page if they click the Place Order button, also the cart should not be empty
 if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION['cart'])) {
     if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-        header("location: login.php");
+        header("location: Login.php");
         $_SESSION['notLogged'] = "Log in to place your order.";
         exit;
     }
