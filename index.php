@@ -54,7 +54,7 @@ $recently_added_products = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="content-wrapper">
                 <h1>Webshob System</h1>
                 <nav>
-                    <a href="index.php">Home1</a>
+                    <a href="index.php">Home123</a>
                     <a href="products.php">Products</a>
                     <?php if ($loggedin == false): ?>
                         <a href="Login.php">Login</a>
