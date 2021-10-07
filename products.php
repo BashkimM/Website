@@ -67,7 +67,7 @@ if(isset($_SESSION['username'])){
             <div class="content-wrapper">
                 <h1>Webshob System</h1>
                 <nav>
-                    <a href="index.php">Home</a>
+                    <a href="index.php">Home222</a>
                     <a href="products.php">Products</a>
                     <?php if ($loggedin == false): ?>
                         <a href="Login.php">Login</a>
